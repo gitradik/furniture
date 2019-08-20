@@ -1,0 +1,46 @@
+footer {
+  padding: 30px 0;
+}
+footer .t {
+  margin-top: 50px;
+}
+footer .t p {
+  color: white;
+  font-weight: 900;
+}
+footer img {
+  height: auto;
+  max-width: 200px;
+  margin-bottom: 50px;
+}
+footer form .t h5 {
+  color: #e6ddcd !important;
+}
+footer .foot-item .t h5 {
+  color: #e6ddcd;
+  margin-bottom: 15px;
+}
+footer .foot-item .t a {
+  margin: 0 5px;
+  font-size: 20px;
+  font-weight: 300;
+  text-decoration: underline;
+  margin-bottom: 15px;
+  transition: 0.2s;
+  color: rgba(0, 0, 0, 0.7);
+}
+footer .foot-item .t a:hover {
+  transition: 0.2s;
+  color: black;
+}
+footer .foot-item .t a i {
+  font-size: 28px;
+}
+
+@media only screen and (max-width: 991px) {
+  footer a {
+    font-size: 18px;
+  }
+}
+
+/*# sourceMappingURL=footer.css.map */

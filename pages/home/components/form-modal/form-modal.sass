@@ -1,0 +1,70 @@
+@import "../../../../style/data"
+
+.form-modal
+
+  .modal-body
+    padding-top: 0
+
+  .modal-dialog-centered
+    justify-content: center
+
+  .modal-content
+    border-radius: 4px
+    max-width: 370px
+
+  .modal-header
+    border-bottom: 0
+    border-radius: 0
+
+    .modal-title
+      font-size: 20px
+      font-weight: 700
+
+  form
+
+    input
+      text-align: center
+      display: block
+      width: 100%
+      border-radius: 30px
+      max-width: 350px
+      padding: 20px 10px
+      font-size: 20px
+      font-weight: 300
+      border: 1px solid rgba(0,0,0,.1)
+      color: black
+      margin-bottom: 15px
+
+      &::placeholder
+        color: rgba(0,0,0,.7)
+
+    button
+      border-radius: 30px
+      padding: 20px 30px
+      border: 1px solid rgba(0,0,0,.1)
+      font-size: 20px
+      font-weight: 500
+      width: 100%
+      max-width: 350px
+      transition: .2s
+      color: black
+      background-color: $yellow_light
+
+      &:hover
+        transition: .2s
+        color: white
+        background-color: $yellow_hover
+
+
+    .t
+      padding: 30px 0
+
+      p
+        color: black
+        font-weight: 700
+
+    .order
+      padding-top: 20px
+
+
+@import "form-modal-media"

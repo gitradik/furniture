@@ -1,0 +1,62 @@
+.portfolio {
+  padding: 60px 0;
+  background-color: #f9f9f9;
+}
+.portfolio .t {
+  margin-bottom: 25px;
+}
+.portfolio .t h2 {
+  color: black;
+}
+.portfolio .t h4 {
+  font-weight: 700;
+}
+.portfolio .t h4 span {
+  color: #e6ddcd;
+  font-weight: 900;
+}
+.portfolio .portfolio-slider .portfolio-item:last-child {
+  margin-bottom: 0;
+}
+.portfolio .portfolio-slider .portfolio-item .portfolio-link {
+  margin-bottom: 10px;
+  display: block;
+  overflow: hidden;
+  border-radius: 4px;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.15);
+  transition: 0.2s;
+  border: 3px solid transparent;
+}
+.portfolio .portfolio-slider .portfolio-item .portfolio-link:hover {
+  transition: 0.2s;
+  border-color: #e6ddcd;
+}
+.portfolio .portfolio-slider .portfolio-item .portfolio-link img {
+  height: auto;
+  width: 100%;
+  max-width: 100%;
+  max-height: 260px;
+  min-height: 260px;
+}
+
+@media only screen and (min-width: 992px) {
+  .portfolio .t {
+    margin-bottom: 50px;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  .portfolio .t h4 {
+    font-size: 22px;
+  }
+  .portfolio .portfolio-slider .portfolio-item .portfolio-link img {
+    min-height: 300px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .portfolio .portfolio-slider .portfolio-item .portfolio-link img {
+    min-height: 100%;
+    max-height: 100%;
+  }
+}
+
+/*# sourceMappingURL=portfolio.css.map */

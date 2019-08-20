@@ -1,0 +1,101 @@
+@import "../../../../style/data"
+
+.first-scroll
+  position: relative
+  overflow: hidden
+  min-height: 100vh
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+  display: flex
+  align-items: center
+  justify-content: center
+  padding-top: 100px
+  padding-bottom: 30px
+
+  .ct
+    position: relative
+    z-index: 2
+
+  .order
+
+
+  .t
+    border-radius: 4px
+    border: 1px solid rgba(255,255,255,.3)
+    box-shadow: 0 0 15px 0 rgba(255,255,255,.4)
+    background-color: rgba(255,255,255,.8)
+    padding: 15px
+
+    h1
+      color: #232122
+      font-size: 52px
+      margin-bottom: 0
+      text-shadow: 1px 1px 1px rgba(0,0,0,.4)
+
+    h2
+      color: #232122
+      font-size: 32px
+
+    hr
+      height: 3px
+      width: 100px
+      background-color: $yellow_light
+
+    p
+      font-style: inherit
+      font-weight: 500
+
+  .t-name
+    display: flex
+
+    h4
+      color: white
+      font-size: 32px
+      border-radius: 2px
+      font-weight: 500
+      background-color: rgba(0, 177, 86, 0.3)
+      box-shadow: 0 0 10px 0 rgba(255,255,255,.07)
+      display: inline-block
+      padding: 15px
+      margin-bottom: 5px
+
+    h5
+      color: white
+      font-size: 26px
+      font-weight: 400
+
+  .t-sub
+    background-color: $yellow_light
+    box-shadow: 0 0 15px 0 rgba(255,255,255,.4)
+    width: auto
+    padding: 15px!important
+    border-radius: 2px
+    border: 0
+
+    h4
+      color: #232122
+      font-weight: 700
+      text-shadow: 1px 1px 1px rgba(0,0,0,.6)
+      font-size: 28px
+
+      span
+        color: #232122
+        text-shadow: none
+        font-weight: 700
+
+    p
+      color: white
+      margin-bottom: 0
+
+.cos
+  position: absolute
+  bottom: 1.5%
+  left: 50%
+  transform: translateX(-50%)
+  z-index: 4
+
+
+
+
+@import "first-scroll-media"

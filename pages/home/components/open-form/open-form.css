@@ -1,0 +1,52 @@
+.open-form {
+  padding: 60px 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.open-form .check-list .check-item {
+  color: white;
+}
+.open-form .ct {
+  position: relative;
+  z-index: 2;
+}
+.open-form .t {
+  padding-bottom: 30px;
+}
+.open-form .t h2 {
+  color: white;
+}
+.open-form form .t h5 {
+  color: white;
+  line-height: 30px;
+}
+
+@media only screen and (min-width: 992px) {
+  .open-form .t {
+    padding-bottom: 60px;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  .open-form form input, .open-form form button {
+    font-size: 18px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .open-form .check-list .check-item img {
+    max-width: 40px;
+  }
+  .open-form .check-list .check-item p {
+    font-size: 20px;
+  }
+  .open-form form input, .open-form form button {
+    font-size: 16px;
+  }
+  .open-form form .t h5 {
+    max-width: 500px;
+    font-size: 20px;
+  }
+}
+
+/*# sourceMappingURL=open-form.css.map */

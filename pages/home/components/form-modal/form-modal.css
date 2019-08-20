@@ -1,0 +1,77 @@
+.form-modal .modal-body {
+  padding-top: 0;
+}
+.form-modal .modal-dialog-centered {
+  justify-content: center;
+}
+.form-modal .modal-content {
+  border-radius: 4px;
+  max-width: 370px;
+}
+.form-modal .modal-header {
+  border-bottom: 0;
+  border-radius: 0;
+}
+.form-modal .modal-header .modal-title {
+  font-size: 20px;
+  font-weight: 700;
+}
+.form-modal form input {
+  text-align: center;
+  display: block;
+  width: 100%;
+  border-radius: 30px;
+  max-width: 350px;
+  padding: 20px 10px;
+  font-size: 20px;
+  font-weight: 300;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  color: black;
+  margin-bottom: 15px;
+}
+.form-modal form input::placeholder {
+  color: rgba(0, 0, 0, 0.7);
+}
+.form-modal form button {
+  border-radius: 30px;
+  padding: 20px 30px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  font-size: 20px;
+  font-weight: 500;
+  width: 100%;
+  max-width: 350px;
+  transition: 0.2s;
+  color: black;
+  background-color: #e6ddcd;
+}
+.form-modal form button:hover {
+  transition: 0.2s;
+  color: white;
+  background-color: #b9b0a0;
+}
+.form-modal form .t {
+  padding: 30px 0;
+}
+.form-modal form .t p {
+  color: black;
+  font-weight: 700;
+}
+.form-modal form .order {
+  padding-top: 20px;
+}
+
+@media only screen and (max-width: 575px) {
+  .form-modal form input {
+    padding: 15px 10px;
+    font-size: 16px;
+  }
+  .form-modal form button {
+    padding: 15px 30px;
+    font-size: 16px;
+  }
+  .form-modal form .t p {
+    font-size: 18px;
+  }
+}
+
+/*# sourceMappingURL=form-modal.css.map */

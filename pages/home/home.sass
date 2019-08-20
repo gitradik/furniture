@@ -1,0 +1,63 @@
+@import "../../style/data"
+
+.home
+  position: relative
+  overflow: hidden
+  font-family: 'Playfair Display', serif!important
+
+  form
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: center
+
+    .t
+
+      h5
+        color: black
+        line-height: 30px
+
+    input
+      text-align: center
+      display: block
+      width: 100%
+      border-radius: 30px
+      max-width: 350px
+      padding: 20px 10px
+      font-size: 20px
+      font-weight: 300
+      color: black
+      margin-bottom: 15px
+      transition: .2s
+      box-shadow: 0 0 10px 0 rgba(0,0,0,.03)
+      border: 1px solid rgba(0,0,0,.1)
+
+      &::placeholder
+        color: rgba(0,0,0,.7)
+
+      &:hover
+        transition: .2s
+        border-color: $yellow_light
+
+      &:focus
+        transition: .2s
+        box-shadow: 0 0 10px 0 rgba(0,0,0,.1)
+
+    button
+      border-radius: 30px
+      padding: 20px 0
+      border: 1px solid rgba(0,0,0,.1)
+      font-size: 20px
+      font-weight: 500
+      width: 100%
+      max-width: 350px
+      transition: .2s
+      color: black
+      background-color: $yellow_light
+
+      &:hover
+        transition: .2s
+        color: white
+        background-color: $yellow_hover
+
+@import "home-media"

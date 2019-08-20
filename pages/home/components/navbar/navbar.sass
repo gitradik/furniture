@@ -1,0 +1,78 @@
+@import "../../../../style/data"
+
+.navbar
+  position: fixed
+  width: 100%
+  z-index: 998
+  transition: .2s
+  background-color: white
+
+  .navbar-brand
+    padding: 0
+
+    img
+      height: auto
+      max-width: 80px
+
+  .navbar-toggler
+    outline: none
+    border-color: rgba(255,255,255,.7)
+    border-radius: 2px
+
+  .navbar-nav
+    align-items: center
+
+    .nav-item
+
+      .nav-link
+        outline: none
+        border-radius: 2px
+        font-size: 16px
+        transition: .2s
+        color: white
+        border: 1px solid transparent
+
+        &:hover
+          transition: .2s
+          color: white
+          border-color: $yellow_hover
+          background-color: $yellow_hover
+
+    .nav-order
+      display: flex
+      flex-direction: column
+      align-items: center
+      justify-content: center
+
+  .telnav
+    outline: none
+    border-radius: 2px
+    font-size: 16px
+    transition: .2s
+    color: black
+    border: 1px solid transparent
+
+    &:hover
+      transition: .2s
+      color: white
+      border-color: $yellow_hover
+      background-color: $yellow_hover
+
+.navbar-in
+  transition: .2s
+  background-color: white
+  box-shadow: $box_shadow_middle
+
+  .navbar-nav
+
+    .nav-item
+
+      .nav-link
+        transition: .2s
+        color: black
+
+
+
+
+
+@import "navbar-media"

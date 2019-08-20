@@ -1,0 +1,50 @@
+@import "../../style/data"
+
+@media only screen and (max-width: 1199px)
+  .home
+
+    form
+
+      .t
+
+        h5
+          font-size: 22px
+
+      input
+        text-align: center
+        display: block
+        width: 100%
+        border-radius: 30px
+        max-width: 350px
+        padding: 15px 10px
+        font-size: 16px
+
+        &::placeholder
+          color: rgba(0,0,0,.7)
+
+        &:hover
+          transition: .2s
+          border-color: $yellow_light
+
+        &:focus
+          transition: .2s
+          box-shadow: 0 0 10px 0 rgba(0,0,0,.1)
+
+      button
+        border-radius: 30px
+        padding: 15px 0
+        border: 1px solid rgba(0,0,0,.1)
+        font-size: 16px
+        font-weight: 500
+        width: 100%
+        max-width: 350px
+        transition: .2s
+        color: black
+        background-color: $yellow_light
+
+        &:hover
+          transition: .2s
+          color: white
+          background-color: $yellow_hover
+
+

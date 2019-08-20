@@ -1,0 +1,186 @@
+.first-scroll {
+  position: relative;
+  overflow: hidden;
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 100px;
+  padding-bottom: 30px;
+}
+.first-scroll .ct {
+  position: relative;
+  z-index: 2;
+}
+.first-scroll .t {
+  border-radius: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 0 15px 0 rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 15px;
+}
+.first-scroll .t h1 {
+  color: #232122;
+  font-size: 52px;
+  margin-bottom: 0;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+}
+.first-scroll .t h2 {
+  color: #232122;
+  font-size: 32px;
+}
+.first-scroll .t hr {
+  height: 3px;
+  width: 100px;
+  background-color: #e6ddcd;
+}
+.first-scroll .t p {
+  font-style: inherit;
+  font-weight: 500;
+}
+.first-scroll .t-name {
+  display: flex;
+}
+.first-scroll .t-name h4 {
+  color: white;
+  font-size: 32px;
+  border-radius: 2px;
+  font-weight: 500;
+  background-color: rgba(0, 177, 86, 0.3);
+  box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.07);
+  display: inline-block;
+  padding: 15px;
+  margin-bottom: 5px;
+}
+.first-scroll .t-name h5 {
+  color: white;
+  font-size: 26px;
+  font-weight: 400;
+}
+.first-scroll .t-sub {
+  background-color: #e6ddcd;
+  box-shadow: 0 0 15px 0 rgba(255, 255, 255, 0.4);
+  width: auto;
+  padding: 15px !important;
+  border-radius: 2px;
+  border: 0;
+}
+.first-scroll .t-sub h4 {
+  color: #232122;
+  font-weight: 700;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+  font-size: 28px;
+}
+.first-scroll .t-sub h4 span {
+  color: #232122;
+  text-shadow: none;
+  font-weight: 700;
+}
+.first-scroll .t-sub p {
+  color: white;
+  margin-bottom: 0;
+}
+
+.cos {
+  position: absolute;
+  bottom: 1.5%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 4;
+}
+
+@media only screen and (min-width: 992px) {
+  .first-scroll .order {
+    padding-top: 30px;
+  }
+  .first-scroll .t {
+    padding: 30px;
+  }
+  .first-scroll .t h2 {
+    margin-bottom: 0;
+  }
+  .first-scroll .t p {
+    font-size: 28px;
+    font-weight: 300;
+    margin-bottom: 25px;
+  }
+  .first-scroll .t-sub {
+    margin-bottom: 0;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .first-scroll .order {
+    margin-left: 20px;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  .first-scroll .t h1 {
+    font-size: 42px;
+  }
+  .first-scroll .t h2 {
+    font-size: 28px;
+  }
+  .first-scroll .t-sub h4 {
+    font-size: 22px;
+    font-weight: 400;
+  }
+  .first-scroll .t-name {
+    text-align: center;
+    margin-top: 40px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .first-scroll .order {
+    margin-top: 20px;
+  }
+  .first-scroll .t h1 {
+    letter-spacing: 2px;
+    font-size: 42px;
+  }
+  .first-scroll .t h2 {
+    font-size: 24px;
+  }
+  .first-scroll .t p {
+    font-size: 22px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .first-scroll .order button {
+    font-size: 14px;
+  }
+  .first-scroll .t p {
+    font-size: 18px;
+  }
+  .first-scroll .t-name h4 {
+    font-size: 22px;
+  }
+  .first-scroll .t-name h5 {
+    font-size: 18px;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .first-scroll {
+    background-position: right center;
+  }
+  .first-scroll .t {
+    padding: 10px 5px;
+  }
+  .first-scroll .t h1 {
+    font-size: 28px;
+  }
+  .first-scroll .t h2 {
+    font-size: 22px;
+  }
+  .first-scroll .t-sub {
+    padding: 10px 5px;
+  }
+  .first-scroll .t-sub h4 {
+    font-size: 18px;
+    font-weight: 400;
+  }
+}
+
+/*# sourceMappingURL=first-scroll.css.map */

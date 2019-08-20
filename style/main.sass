@@ -1,0 +1,180 @@
+@import "data"
+
+body
+  font-family: 'Playfair Display', serif!important
+
+.bg
+  position: absolute
+  top: 0
+  right: 0
+  left: 0
+  bottom: 0
+  z-index: 1
+  background-color: rgba(0,0,0,.3)
+
+.t
+  display: flex
+  flex-direction: column
+  justify-content: center
+  text-align: center
+  width: 100%
+
+  h1
+    color: white
+    font-size: 52px
+    font-weight: 900
+    background-position: center center
+    border-color: transparent
+    border-style: solid
+    text-shadow: 1px 1px 1px rgba(0,0,0,.3)
+
+    span
+      color: rgb(232, 76, 60)
+
+  h2
+    color: white
+    font-size: 38px
+    font-weight: 500
+
+  h3
+    font-weight: bold
+    color: #000
+    font-size: 42px
+
+  h4
+    font-size: 32px
+    font-weight: 900
+    color: #000
+
+    span
+      font-weight: 600
+
+  h5
+    font-size: 26px
+    font-weight: bold
+
+  h6
+    font-size: 28px
+    font-weight: 200
+    max-width: 760px
+    margin: 20px auto
+    font-style: italic
+
+  p
+    color: white
+    font-size: 20px
+    font-weight: 300
+
+.order
+  text-align: center
+
+  button
+    outline: none
+    text-transform: uppercase
+    border: none
+    padding: 20px 40px
+    border-radius: 30px
+    font-size: 20px
+    font-weight: 700
+    transition: .2s
+    background-color: $yellow_light
+    color: black
+
+    &:hover
+      transition: .2s
+      background-color: $yellow_hover
+
+.slider, .video-slider, .list-slider, .portfolio-slider
+  position: relative
+  max-width: 100%
+
+  img
+    height: auto
+    max-width: 100%
+
+  .slick-dots
+    bottom: -35px
+
+    li
+
+      button
+
+        &:before
+          content: ''
+          border: 1px solid white
+          border-radius: 100%
+          transition: .2s
+          box-shadow: 0 2px 5px 0 rgba(0,0,0,.2)
+          background-color: $yellow_light
+
+      .active
+
+        &:before
+          transition: .2s
+          background: $yellow_light
+          box-shadow: 0 2px 5px 0 rgba(0,0,0,.7)
+
+  .arrow-slider
+    border: 0
+    outline: none
+    position: absolute
+    top: 0
+    bottom: 10px
+    padding: 0 15px
+    border-radius: 4px
+    transition: 2s
+    background-color: white
+
+    i
+      font-size: 20px
+      transition: .2s
+      color: black
+
+    &:hover
+      transition: 2s
+      background-color: rgba(0,0,0,.03)
+
+      i
+        transition: .2s
+        color: $yellow_light
+
+  .prev-arrow
+    z-index: 20
+    left: -40px
+
+  .next-arrow
+    right: -40px
+    z-index: 20
+
+
+  .slick-slide
+    border: 2px solid white
+    margin: 0 10px
+    margin-bottom: 10px
+
+.check-list
+
+  .check-item
+    display: flex
+    align-items: center
+    margin-bottom: 25px
+
+    img
+      height: auto
+      max-width: 60px
+
+    p
+      font-size: 28px
+      font-weight: 900
+      margin-left: 10px
+
+    &:last-child
+      margin-bottom: 0
+
+
+
+
+
+
+
+@import "main-media"
