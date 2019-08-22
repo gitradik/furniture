@@ -24,10 +24,10 @@
 
 
     <link rel="stylesheet" href="<?= get_template_directory_uri(); ?>/style/reset.css">
-    <link rel="stylesheet" href="<?= get_template_directory_uri(); ?>/style/sub-style.css?v=3.1">
-    <link rel="stylesheet" href="<?= get_template_directory_uri(); ?>/style/loader.css?v=3.1">
-    <link rel="stylesheet" href="<?= get_template_directory_uri(); ?>/style/main.css?v=3.1">
-    <link rel="stylesheet" href="<?= get_template_directory_uri(); ?>/pages/home/home.css?v=3.1">
+    <link rel="stylesheet" href="<?= get_template_directory_uri(); ?>/style/sub-style.css?v=3.2">
+    <link rel="stylesheet" href="<?= get_template_directory_uri(); ?>/style/loader.css?v=3.2">
+    <link rel="stylesheet" href="<?= get_template_directory_uri(); ?>/style/main.css?v=3.2">
+    <link rel="stylesheet" href="<?= get_template_directory_uri(); ?>/pages/home/home.css?v=3.2">
 
 
 </head>

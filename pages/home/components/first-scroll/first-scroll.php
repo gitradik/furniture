@@ -2,9 +2,10 @@
     <?= include 'first-scroll.css'; ?>
 </style>
 <div class="position-relative">
-<div class="first-scroll"
-     style="background-image: url('<?= get_template_directory_uri(); ?>/images/first-scroll-back.png')"
->
+<div class="first-scroll" style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/first-scroll-back.png')">
+    <video autoplay muted loop id="myVideo">
+        <source src="<?= get_template_directory_uri(); ?>/slider01.mp4" type="video/mp4">
+    </video>
     <div class="bg"></div>
     <div class="container-fluid ct">
         <div class="row justify-content-center">

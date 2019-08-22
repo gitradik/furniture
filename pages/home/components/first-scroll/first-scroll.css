@@ -11,6 +11,12 @@
   padding-top: 100px;
   padding-bottom: 30px;
 }
+.first-scroll #myVideo {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  bottom: 0;
+}
 .first-scroll .ct {
   position: relative;
   z-index: 2;
@@ -133,6 +139,9 @@
   }
 }
 @media only screen and (max-width: 991px) {
+  .first-scroll #myVideo {
+    display: none;
+  }
   .first-scroll .order {
     margin-top: 20px;
   }
