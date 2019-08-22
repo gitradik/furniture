@@ -29,7 +29,6 @@
         require_once get_template_directory() . '/pages/home/components/youwillget/youcan.php';
         require_once get_template_directory() . '/pages/home/components/footer/footer.php';
 
-
     ?>
 
 </div>
